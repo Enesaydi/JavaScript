@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo1">Merhaba Dünya</h1>
+    <button onclick="myfunction()">Alert Çalışsın</button>
+    <button onclick="myfunction2()">Consol çalışsın</button>
+    <button onclick="myfunction3()">inner çalış</button>
+    <script>
+        function myfunction(){
+            alert("javaya script e hoj geldiniz.");
+        }
+        function myfunction2(){
+            console.log("merhaba burada da karşılaştık");
+        }
+        function myfunction3(){
+            document.getElementById("demo1").innerHTML="Hello world";
+        }
+    </script>
+</body>
+</html>
