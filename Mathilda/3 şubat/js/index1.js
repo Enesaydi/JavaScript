@@ -15,3 +15,12 @@ function mouseo(){
     document.getElementById("pp").style.fontSize="30px";
     document.getElementById("pp").innerHTML="Yazıyı değiştirebilirsin";
 }
+function kopy(){
+    alert("kopyalayamazsınz");
+}
+function cutk(){
+    alert("kesemezsiniz");
+}
+function selekt(){
+    alert("seçemezsiniz");
+}
