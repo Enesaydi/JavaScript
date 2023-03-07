@@ -60,18 +60,18 @@ const [first, second, ...rest] = myArray;
 console.log(first,second,rest); // 1  // 2  [3, 4, 5]
 
 
-const myObj = { name: 'John', age: 30, city: 'New York' };
+const myObj1 = { name: 'John', age: 30, city: 'New York' };
 
-const { name, age } = myObj;
+const { name1, age } = myObj1;
 
-console.log(name); // 'John'
+console.log(name1); // 'John'
 console.log(age); // 30
 
 
 //        Rename
-const myObj = { name: 'John', age: 30, city: 'New York' };
+const myObj2 = { name: 'John', age: 30, city: 'New York' };
 
-const { name: fullName, age: years } = myObj;
+const { name: fullName, age: years } = myObj2;
 
 console.log(fullName); // 'John'
 console.log(years); // 30
@@ -80,7 +80,7 @@ console.log(years); // 30
 
 //       NESTED  destructure  ;
 
-const myObj = {
+const myObj3 = {
   name: 'John',
   age: 30,
   address: {
@@ -89,7 +89,7 @@ const myObj = {
   }
 };
 
-const { name, address: { city } } = myObj;
+const { name, address: { city } } = myObj3;
 
 console.log(name); // 'John'
 console.log(city); // 'New York'
