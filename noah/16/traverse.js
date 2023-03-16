@@ -5,8 +5,6 @@
 
 const list=document.querySelector("li")
 console.log(list)
-console.log(list.parentElement)
-console.log(list.parentElement.parentElement)
 console.log(list.parentNode.parentNode.parentNode)
 
 //_______________________
